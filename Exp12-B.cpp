@@ -1,0 +1,31 @@
+//Varija K
+//24070123165
+#include <iostream>
+using namespace std;
+
+class student {
+    int rollno;
+    char name[50];
+    double fee;
+
+public:
+    student()   // Constructor defined inside class
+    {
+        cout << "Enter the RollNo: ";
+        cin >> rollno;
+        cout << "Enter the Name: ";
+        cin >> name;
+        cout << "Enter the Fee: ";
+        cin >> fee;
+    }
+
+    void display() {
+        cout << endl << rollno << "\t" << name << "\t" << fee;
+    }
+};
+
+int main() {
+    student s1;   // Constructor automatically called
+    s1.display();
+    return 0;
+}
