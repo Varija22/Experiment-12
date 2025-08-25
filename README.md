@@ -75,3 +75,37 @@ Algorithm:
 The program effectively illustrates the use of constructors defined inside a class to initialize data members at object creation. It also demonstrates basic input and output handling using character arrays and simple member functions in C++. This helps in structuring code better using object-oriented principles.
 
 
+Program 3
+Aim:
+
+To write a C++ program demonstrating the use of a **default constructor** that initializes data members with predefined values and displays them.
+
+Tools Used:
+
+* Programming Language: C++
+* Compiler/Platform: Programiz
+
+Theory:
+
+A **default constructor** is a constructor that takes no arguments and is automatically called when an object is created. It initializes the object’s data members with default values. In this program, the default constructor initializes two integer members `x` and `y` to 5 and 10 respectively. The `show()` function is used to display these values.
+
+Algorithm:
+
+1. Start
+2. Define a class `DefaultConst` with private data members `x` and `y`.
+3. Define a default constructor that initializes `x` to 5 and `y` to 10.
+4. Define a member function `show()` to output the values of `x` and `y`.
+5. In `main()`:
+
+   * Create an object `d` of class `DefaultConst`, which calls the default constructor automatically.
+   * Call the `show()` function to display the values of `x` and `y`.
+6. End
+
+ Conclusion:
+
+The program successfully demonstrates the concept of a default constructor in C++. It shows how constructors initialize data members automatically when an object is instantiated, and how member functions can be used to display those initialized values. This is a basic example of object initialization in object-oriented programming.
+
+
+
+
+
