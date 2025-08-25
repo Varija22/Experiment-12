@@ -1,7 +1,6 @@
 //Varija K
 //24070123165
 #include <iostream>
-#include <iostream>
 using namespace std;
 
 class DefaultConst {
@@ -19,5 +18,6 @@ public:
 int main() {
     DefaultConst d;
     d.show();
+
 
 }
