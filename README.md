@@ -1,4 +1,4 @@
-Program 1
+Program 1:Constructor to Accept and Display Student Details
 
 Aim:
 
@@ -44,7 +44,7 @@ The program successfully demonstrates the use of a **constructor** in C++ to ini
 
 
 
-Program 2
+Program 2:Constructor Defined Inside the Class
 Aim:
 
 To implement a C++ program that uses a constructor defined inside the class to accept student details such as roll number, name, and fee, and display them using a member function.
@@ -75,7 +75,7 @@ Algorithm:
 The program effectively illustrates the use of constructors defined inside a class to initialize data members at object creation. It also demonstrates basic input and output handling using character arrays and simple member functions in C++. This helps in structuring code better using object-oriented principles.
 
 
-Program 3
+Program 3:Default Constructor Demonstration
 Aim:
 
 To write a C++ program demonstrating the use of a **default constructor** that initializes data members with predefined values and displays them.
@@ -106,7 +106,7 @@ Algorithm:
 The program successfully demonstrates the concept of a default constructor in C++. It shows how constructors initialize data members automatically when an object is instantiated, and how member functions can be used to display those initialized values. This is a basic example of object initialization in object-oriented programming.
 
 
-Program 4
+Program 4:Parameterized Constructor Demonstration
 
 Aim:
 
@@ -138,6 +138,47 @@ Conclusion:
 
 The program demonstrates the use of **parameterized constructors** in C++. It shows how different objects of the same class can be initialized with different values during creation. This enhances the flexibility and usability of object-oriented programming in real-world applications.
 
+
+Program 5:Copy Constructor Demonstration
+
+
+Aim:
+
+To write a C++ program that demonstrates the use of a **copy constructor** to create a new object by copying the values of an existing object.
+
+Tools Used:
+
+* Programming Language: C++
+* Compiler/Platform: Programiz
+
+Theory:
+
+A copy constructor is a special constructor in C++ used to create a new object as a copy of an existing object. It takes a reference to an object of the same class as a parameter. This constructor is especially useful when objects are passed by value or returned from functions.
+
+In this program:
+
+* A parameterized constructor is used to initialize the data members `x` and `y`.
+* A copy constructor is defined that copies values from an existing object.
+* The `show()` function is used to display the contents of each object.
+
+Algorithm:
+
+1. Start
+2. Define a class `CopyConst` with private data members `x` and `y`.
+3. Define a **parameterized constructor** that accepts two integers and assigns them to `x` and `y`.
+4. Define a **copy constructor** that takes a reference to another object of the same class and copies its `x` and `y` values.
+5. Define a `show()` function to display the values of `x` and `y`.
+6. In the `main()` function:
+
+   * Create an object `c1` using the parameterized constructor.
+   * Call `c1.show()` to display its values.
+   * Create another object `c2` by copying `c1` using the copy constructor.
+   * Call `c2.show()` to display the copied values.
+7. End
+
+Conclusion:
+
+The program successfully demonstrates the use of a **copy constructor** in C++. It shows how one object can be initialized using the data of another object. Copy constructors are essential in object-oriented programming to ensure proper copying of data, especially when objects involve dynamic memory or complex data handling.
 
 
 
