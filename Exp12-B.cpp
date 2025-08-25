@@ -9,7 +9,7 @@ class student {
     double fee;
 
 public:
-    student()   // Constructor defined inside class
+    student()   
     {
         cout << "Enter the RollNo: ";
         cin >> rollno;
@@ -25,7 +25,8 @@ public:
 };
 
 int main() {
-    student s1;   // Constructor automatically called
+    student s1;  
     s1.display();
     return 0;
 }
+
