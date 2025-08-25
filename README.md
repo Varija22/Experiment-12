@@ -42,3 +42,36 @@ Conclusion:
 
 The program successfully demonstrates the use of a **constructor** in C++ to initialize object data at the time of creation. It also shows how to define and use **member functions** to display object data. This is a foundational concept in object-oriented programming and forms the basis for more complex OOP designs.
 
+
+
+Program 2
+Aim:
+
+To implement a C++ program that uses a constructor defined inside the class to accept student details such as roll number, name, and fee, and display them using a member function.
+Tools Used:
+
+* Programming Language: C++
+* Compiler/Platform: Programiz
+
+  
+Theory:
+
+This program demonstrates fundamental concepts of object-oriented programming in C++, particularly the use of constructors. A constructor is a special member function automatically called when an object is created, used here to initialize the student’s roll number, name, and fee. The program uses a character array to store the student's name and standard input/output streams for interaction.
+
+Algorithm:
+
+1. Start
+2. Define a class `student` with private data members: `rollno` (integer), `name` (character array), and `fee` (double).
+3. Define a constructor inside the class to prompt the user and accept inputs for roll number, name, and fee.
+4. Define a member function `display()` to print the stored student information.
+5. In the `main()` function:
+
+   * Create an object of class `student` which automatically calls the constructor.
+   * Call the `display()` method to display the student details.
+6. End
+
+ Conclusion:
+
+The program effectively illustrates the use of constructors defined inside a class to initialize data members at object creation. It also demonstrates basic input and output handling using character arrays and simple member functions in C++. This helps in structuring code better using object-oriented principles.
+
+
