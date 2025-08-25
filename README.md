@@ -106,6 +106,41 @@ Algorithm:
 The program successfully demonstrates the concept of a default constructor in C++. It shows how constructors initialize data members automatically when an object is instantiated, and how member functions can be used to display those initialized values. This is a basic example of object initialization in object-oriented programming.
 
 
+Program 4
+
+Aim:
+
+To write a C++ program that demonstrates the use of a **parameterized constructor** for initializing object data members with user-defined values.
+
+Tools Used:
+* Programming Language: C++
+* Compiler/Platform: Programiz
+
+Theory:
+
+A parameterized constructor is a constructor that accepts arguments to initialize data members of a class at the time of object creation. This allows flexibility to assign different values to different objects. In this program, the constructor takes two integer parameters and assigns them to the data members `x` and `y`. The `show()` member function is used to display these values.
+
+Algorithm:
+
+1. Start
+2. Define a class `ParaConst` with private data members `x` and `y`.
+3. Define a **parameterized constructor** that takes two integers `a` and `b`, and assigns them to `x` and `y` respectively.
+4. Define a member function `show()` to print the values of `x` and `y`.
+5. In the `main()` function:
+
+   * Create object `p1` using the parameterized constructor with values `10` and `20`.
+   * Call `p1.show()` to display its values.
+   * Create another object `p2` with values `50` and `100`.
+   * Call `p2.show()` to display its values.
+6. End
+
+Conclusion:
+
+The program demonstrates the use of **parameterized constructors** in C++. It shows how different objects of the same class can be initialized with different values during creation. This enhances the flexibility and usability of object-oriented programming in real-world applications.
+
+
+
+
 
 
 
